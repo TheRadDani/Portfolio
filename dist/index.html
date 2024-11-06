@@ -4,8 +4,8 @@
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite App</title>
-    <script type="module" crossorigin src="./assets/index-mObZVoBG.js"></script>
+    <title>Daniel Ferreto-Chavarria</title>
+    <script type="module" crossorigin src="./assets/index-k01ZYObY.js"></script>
   </head>
   <body>
     <style>
@@ -64,7 +64,7 @@
         margin-top: 1rem;
       }
 
-      .note {
+      .note-container {
         position: absolute;
         left: 5%;
         top: 1vh;
@@ -72,11 +72,18 @@
         flex-direction: column;
         color: rgb(238, 238, 238);
       }
+      .note {
+        margin: 0; /* Removes default margin */
+      }
     </style>
+    
     <div id="app">
       <div>
-        <p class="note">Tap/Click around to move</p>
-
+        <div class="note-container">
+          <p class="note">Daniel Ferreto's Portfolio</p>
+          <p class="note">AI Engineer</p>
+        </div>
+    
         <div id="textbox-container" style="display: none">
           <div id="textbox">
             <p id="dialogue" class="ui-text"></p>
@@ -88,5 +95,6 @@
       </div>
       <canvas id="game"></canvas>
     </div>
+    
   </body>
 </html>

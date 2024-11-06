@@ -4,7 +4,7 @@ There are 2 methods.
 
 ## Method 1: Using Github Actions
 
-1. Update `vite.config.js` base property to match the name of the repository. For example, `base: "/2d-portfolio-kaboom"`
+1. Update `vite.config.js` base property to match the name of the repository. For example, `base: "/Portfolio"`
 
 2. Navigate to the repository settings on GitHub and configure GitHub pages to use GitHub Actions by creating a custom workflow. Read [this](https://vitejs.dev/guide/static-deploy#github-pages) for more info.
 
